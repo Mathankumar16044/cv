@@ -101,44 +101,15 @@ body {
   margin-top: 40px;
   justify-content: center;
 }
-
-@media only screen and (max-width: 900px) {
-  .c {
-    padding: 0 20px;
-  }
-  .nav li {
-    padding: 0 5px;
-    font-size: 16px;
-  }
-  .tit h2{
-      font-size: 20px;
-  }
-  .abt h3{
-      font-size: 18px;
-  }
-  .home .abt p{
-      margin-top: 15px;
-  }
-  .home .img img{
-      width: 300px;
-  }
-  .tit h4{
-    font-size: 18px;
+.burgers{
+  display:none;
 }
-  .logo {
-      font-size: 16px;
-  }
-  .work .row{
-      margin-top: 0;
-  }
-  .home .abt {
-    width: 100%;
-    text-align: center;
-  }
-  .work .row .lang_box{
-      margin-top: 30px;
-  }
-  .home .img {
-    margin-top: 30px;
-  }
+.menus{
+  width: 100vw;
+  background-color: rgb(97, 96, 96);
+  z-index: 9999;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 100%;
 }
